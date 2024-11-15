@@ -1,0 +1,17 @@
+[package]
+name = "sheel"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0x265edfb71f77009beaa72fce197fb35970f1d8da8a9f736e8815dc171b2b108f'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
+-
